@@ -5,9 +5,18 @@
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
    "routes": [
-  { "src": "/landingpage/template/(.*)", "dest": "/public/landingpage/Template/index.html" },
-  { "src": "/landingpage/template/(.*)", "dest": "/public/landingpage/Template/index.html" },
-  { "src": "/(.*)", "dest": "/api/index.php" }
+  {
+      "src": "/landingpage/(.*)",
+      "dest": "/public/landingpage/$1"
+    },
+    {
+      "src": "/build/(.*)",
+      "dest": "/public/build/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
 ],
     "public": true,
     "buildCommand": "vite build",
