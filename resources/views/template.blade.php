@@ -11,29 +11,29 @@
   	<link rel="shortcut icon" href="assets/images/logo/favourite_icon_1.svg">
 
   	<!-- Framework - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset('landingpage/Template/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('landingpage/assets/css/bootstrap.min.css')}}">
 
     <!-- Icon Font - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/fontawesome.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/fontawesome.css")}}">
 
     <!-- Animation - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/animate.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/animate.css")}}">
 
     <!-- Cursor - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/cursor.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/cursor.css")}}">
 
     <!-- Carousel - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/slick.css")}}">
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/slick-theme.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/slick.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/slick-theme.css")}}">
 
     <!-- Video & Image Popup - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/magnific-popup.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/magnific-popup.css")}}">
 
     <!-- Vanilla Calendar - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/vanilla-calendar.min.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/vanilla-calendar.min.css")}}">
 
     <!-- Custom - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/Template/assets/css/style.css")}}">
+    <link rel="stylesheet" type="text/css" href="{{asset("landingpage/assets/css/style.css")}}">
 
   </head>
 
@@ -73,36 +73,36 @@
     <!-- Body Wrap - End -->
 
     <!-- Framework - Jquery Include -->
-    <script src="{{asset("landingpage/Template/assets/js/jquery.min.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/popper.min.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/bootstrap.min.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/bootstrap-dropdown-ml-hack.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/jquery.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/popper.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/bootstrap.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/bootstrap-dropdown-ml-hack.js")}}"></script>
 
     <!-- animation - jquery include -->
-    <script src="{{asset("landingpage/Template/assets/js/cursor.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/wow.min.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/tilt.min.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/parallax.min.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/parallax-scroll.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/cursor.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/wow.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/tilt.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/parallax.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/parallax-scroll.js")}}"></script>
 
     <!-- Carousel - Jquery Include -->
-    <script src="{{asset("landingpage/Template/assets/js/slick.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/slick.min.js")}}"></script>
 
     <!-- Video & Image Popup - Jquery Include -->
-    <script src="{{asset("landingpage/Template/assets/js/magnific-popup.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/magnific-popup.min.js")}}"></script>
 
     <!-- Counter Up - Jquery Include -->
-    <script src="{{asset("landingpage/Template/assets/js/waypoint.js")}}"></script>
-    <script src="{{asset("landingpage/Template/assets/js/counterup.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/waypoint.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/counterup.min.js")}}"></script>
 
     <!-- Countdown Timer - jquery include -->
-    <script src="{{asset("landingpage/Template/assets/js/countdown.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/countdown.js")}}"></script>
 
     <!-- Vanilla Calendar - Jquery Include -->
-    <script src="{{asset("landingpage/Template/assets/js/vanilla-calendar.min.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/vanilla-calendar.min.js")}}"></script>
 
     <!-- Custom - Jquery Include -->
-    <script src="{{asset("landingpage/Template/assets/js/main.js")}}"></script>
+    <script src="{{asset("landingpage/assets/js/main.js")}}"></script>
 
   </body>
 </html>

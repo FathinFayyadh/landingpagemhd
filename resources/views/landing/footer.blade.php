@@ -6,7 +6,7 @@
                 <div class="footer_widget">
                   <div class="site_logo">
                     <a class="site_link" href="index.html">
-                      <img src="{{asset("landingpage/Template/assets/images/logo/navbarmhd.png")}}" alt="Collab - Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/logo/navbarmhd.png")}}" alt="Collab - Online Learning Platform">
                     </a>
                   </div>
                   <p class="text-white fs-6">

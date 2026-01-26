@@ -36,14 +36,14 @@
                 <div class="col col-lg-5">
                   <div class="banner_image_1 decoration_wrap">
                     <div class="image_wrap">
-                      <img src="{{asset("landingpage/Template/assets/images/profilsd.png  ")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/profilsd.png  ")}}" alt="Collab – Online Learning Platform">
                     </div>
 
                     <div class="deco_item shape_img_1 w-25" data-parallax='{"y" : -130, "smoothness": 6}'>
-                      <img src="{{asset("landingpage/Template/assets/images/shape/stack-of-books.png")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/shape/stack-of-books.png")}}" alt="Collab – Online Learning Platform">
                     </div>
                     <div class="deco_item shape_img_2 w-25" data-parallax='{"y" : 160, "smoothness": 6}'>
-                      <img class="" src="{{asset("landingpage/Template/assets/images/shape/textbook.png")}}" alt="Collab – Online Learning Platform">
+                      <img class="" src="{{asset("landingpage/assets/images/shape/textbook.png")}}" alt="Collab – Online Learning Platform">
                     </div>
                   </div>
                 </div>
@@ -64,7 +64,7 @@
               </div>
               <div class="col col-lg-6">
                 <div class="image_widget">
-                  <img src="{{asset("landingpage/Template/assets/images/about/about-profil.png")}}" alt="Collab – Online Learning Platform">
+                  <img src="{{asset("landingpage/assets/images/about/about-profil.png")}}" alt="Collab – Online Learning Platform">
                 </div>
               </div>
               <div class="col col-lg-6">
@@ -96,7 +96,7 @@
                     <div class="service_item text-center" data-magnetic>
                       <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/Template/assets/images/gold-medal.png")}}" alt="Collab – Online Learning Platform">
+                          <img  src="{{asset("landingpage/assets/images/gold-medal.png")}}" alt="Collab – Online Learning Platform">
                         </div>
                       </div>
                       <div class="item_content">
@@ -111,7 +111,7 @@
                     <div class="service_item" data-magnetic>
                      <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/Template/assets/images/graduation-hat.png")}}" alt="Collab – Online Learning Platform">
+                          <img  src="{{asset("landingpage/assets/images/graduation-hat.png")}}" alt="Collab – Online Learning Platform">
                         </div>
                       </div>
                       <div class="item_content">
@@ -180,18 +180,18 @@
                 <div class="row images_group decoration_wrap">
                   <div class="col col-md-6 col-sm-6">
                     <div class="image_wrap">
-                      <img src="{{asset("landingpage/Template/assets/images/misi.jpg")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/misi.jpg")}}" alt="Collab – Online Learning Platform">
                     </div>
                     <div class="image_wrap">
-                      <img src="{{asset("landingpage/Template/assets/images/visi-misi.png")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/visi-misi.png")}}" alt="Collab – Online Learning Platform">
                     </div>
                   </div>
                   <div class="col col-md-6 col-sm-6">
                     <div class="image_wrap">
-                      <img src="{{asset("landingpage/Template/assets/images/vis.jpg")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/vis.jpg")}}" alt="Collab – Online Learning Platform">
                     </div>
                     <div class="image_wrap">
-                      <img src="{{asset("landingpage/Template/assets/images/visii.jpg")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/visii.jpg")}}" alt="Collab – Online Learning Platform">
                     </div>
                   </div>
 

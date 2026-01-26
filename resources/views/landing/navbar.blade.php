@@ -4,7 +4,7 @@
             <div class="col col-lg-3 col-5">
               <div class="site_logo">
                 <a class="site_link" href="index.html">
-                  <img src="{{asset("landingpage/Template/assets/images/logo/navbarmhd.png")}}" alt="Collab - Online Learning Platform">
+                  <img src="{{asset("landingpage/assets/images/logo/navbarmhd.png")}}" alt="Collab - Online Learning Platform">
                 </a>
               </div>
             </div>
