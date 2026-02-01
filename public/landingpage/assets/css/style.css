@@ -356,7 +356,7 @@ hr {
 /* 2.5 - Spaces or Gaps - Start
 ================================================== */
 .section_space_lg {
-  padding-top: 120px;
+ padding-top: 20px;
   padding-bottom: 120px;
 }
 
@@ -3175,7 +3175,7 @@ blockquote p {
   left: 0;
   right: 0;
   z-index: 99;
- 
+
   position: absolute;
   transition: padding 0.3s;
 }

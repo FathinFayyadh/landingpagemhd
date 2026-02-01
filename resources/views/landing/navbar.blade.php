@@ -12,9 +12,7 @@
               <nav class="main_menu navbar navbar-expand-lg">
                 <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
                   <ul class="main_menu_list unordered_list_center">
-                    <li class=" ">
-                      <a class="nav-link" href="{{route('home')}}" id="home_submenu" role="button"  >Home</a>
-                    </li>
+
                       <li class=" ">
                       <a class="nav-link" href="#" id="home_submenu" role="button"  >Program </a>
                     </li>
@@ -42,15 +40,7 @@
                       </ul>
                     </li>
 
-                    <li class="dropdown">
-                      <a class="nav-link" href="#" id="blog_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Blog
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="blog_submenu">
-                        <li><a href="blog.html">Our Blogs</a></li>
-                        <li><a href="blog_details.html">Blog Details</a></li>
-                      </ul>
-                    </li>
+                    
                     <li><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
                   </ul>
                 </div>

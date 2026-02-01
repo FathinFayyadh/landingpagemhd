@@ -13,18 +13,9 @@
                 <div class="col col-lg-7 ">
                   <h1 class="banner_small_title fs-4">Welcome</h1>
                   <h2 class="banner_big_title">SD MUHAMMADIYAH 10 MEDAN</h2>
-                  <p class="banner_description">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum fugiat nulla pariatur
-                  </p>
+
                   <ul class="banner_btns_group unordered_list">
-                    <li>
-                      <a class="btn btn_primary" href="course.html">
-                        <span>
-                          <small>Pelajari Selengkapnya</small>
-                          <small>Lihat selengkapnya</small>
-                        </span>
-                      </a>
-                    </li>
+
                     <li>
                       <a class="video_play_btn text-white popup_video" href="https://www.youtube.com/watch?v=7e90gBu4pas">
                         <span class="icon" data-magnetic><i class="fas fa-play"></i></span>
@@ -86,11 +77,11 @@
         </section>
 
         <!-- Courses Section - Start -->
-      <section class="expect_from_course section_space_lg">
+      <section class="expect_from_course section_space_lg mt-lg-5 mt-ms-2">
           <div class="container">
             <div class="row ">
               <h1 class="heading_text text-center m-3">Keunggulan SD Muhammadiyah 10 Medan</h1>
-              <p class="text-center mb-4 fw-bold fs-5">SD Muhammadiyah Sapen dikenal sebagai sekolah yang unggul dalam membentuk karakter peserta didik, seperti:</p>
+              <p class="text-center mb-4 fw-bold fs-5">SD Muhammadiyah 10 Medan dikenal sebagai sekolah yang unggul dalam membentuk karakter peserta didik, seperti:</p>
                 <div class="row justify-content-center align-items-center">
                   <div class="col col-md-3">
                     <div class="service_item text-center" data-magnetic>
