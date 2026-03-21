@@ -3,7 +3,7 @@
           <div class="row align-items-center">
             <div class="col col-lg-3 col-5">
               <div class="site_logo">
-                <a class="site_link" href="index.html">
+                <a class="site_link" href="{{route('home')}}">
                   <img src="{{asset("landingpage/assets/images/logo/navbarmhd.png")}}" alt="Collab - Online Learning Platform">
                 </a>
               </div>
@@ -40,7 +40,7 @@
                       </ul>
                     </li>
 
-                    
+
                     <li><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
                   </ul>
                 </div>

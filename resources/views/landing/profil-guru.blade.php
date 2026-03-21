@@ -4,7 +4,7 @@
 @include('landing.navbar')
 <main class="page_content">
 
-      
+
         <!-- Mentor Section - Start
         ================================================== -->
         <section class="mentor_section section_space_lg">
@@ -32,22 +32,16 @@
                 <div class="mentor_item">
                   <div class="mentor_image">
                     <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
+                      <img src="{{ asset('landingpage/assets/images/mentor/guru2.png') }}" alt="Collab – Online Learning Platform">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="mentor_details.html">Wendy Chandler</a>
+                      <a href="mentor_details.html"> Adi Jandru S.Pd</a>
                     </h3>
-                    <p class="mentor_designation">Java Developer</p>
+                    <p class="mentor_designation">Guru Olahraga </p>
                     <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>100 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>5 (10 reviews)</span>
+
                       </li>
                     </ul>
                   </div>
@@ -57,23 +51,19 @@
                 <div class="mentor_item">
                   <div class="mentor_image">
                     <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
+                      <img src="{{ asset('landingpage/assets/images/mentor/guru3.png') }}" alt="Collab – Online Learning Platform">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="mentor_details.html">James Grant</a>
+                      <a href="mentor_details.html">Devi safriani</a>
                     </h3>
-                    <p class="mentor_designation">Fullstack developer</p>
+                    <p class="mentor_designation">Guru Kelas 5A</p>
                     <ul class="meta_info_list unordered_list_center mb-0">
                       <li>
-                        <i class="fas fa-clock"></i>
-                        <span>120 Hours</span>
+                       
                       </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>4.9 (22 reviews)</span>
-                      </li>
+
                     </ul>
                   </div>
                 </div>

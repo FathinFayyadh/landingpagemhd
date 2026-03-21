@@ -27,7 +27,7 @@
                 <div class="col col-lg-5">
                   <div class="banner_image_1 decoration_wrap">
                     <div class="image_wrap">
-                      <img src="{{asset("landingpage/assets/images/profilsd.png  ")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/bannersd.png")}}" alt="Collab – Online Learning Platform">
                     </div>
 
                     <div class="deco_item shape_img_1 w-25" data-parallax='{"y" : -130, "smoothness": 6}'>
