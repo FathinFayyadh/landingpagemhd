@@ -71,24 +71,16 @@
               <div class="col col-lg-4 col-md-6">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
+                    <a href="{{ route('detail-guru') }}">
+                      <img src="{{ asset('landingpage/assets/images/mentor/guru2.png') }}" alt="Dra. Hj. Maimunah">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="mentor_details.html">Carolyn Jackson</a>
+                      <a href="{{ route('detail-guru') }}">Dra. Hj. Maimunah</a>
                     </h3>
-                    <p class="mentor_designation">Fullstack developer</p>
+                    <p class="mentor_designation">Kepala Sekolah / Guru Al-Qur'an Hadits</p>
                     <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>120 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>4.9 (22 reviews)</span>
-                      </li>
                     </ul>
                   </div>
                 </div>
@@ -96,24 +88,16 @@
               <div class="col col-lg-4 col-md-6">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
+                    <a href="{{ route('detail-guru') }}">
+                      <img src="{{ asset('landingpage/assets/images/mentor/guru3.png') }}" alt="Faisal Rahman S.Pd">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="mentor_details.html">William Morgan</a>
+                      <a href="{{ route('detail-guru') }}">Faisal Rahman S.Pd</a>
                     </h3>
-                    <p class="mentor_designation">Python Mentor</p>
+                    <p class="mentor_designation">Guru Kelas 6 & Bidang Studi Matematika</p>
                     <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>100 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>5 (10 reviews)</span>
-                      </li>
                     </ul>
                   </div>
                 </div>
@@ -121,24 +105,16 @@
               <div class="col col-lg-4 col-md-6">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
+                    <a href="{{ route('detail-guru') }}">
+                      <img src="{{ asset('landingpage/assets/images/mentor/guru3.png') }}" alt="Siti Aminah S.Pd">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="mentor_details.html">Christine Nelson</a>
+                      <a href="{{ route('detail-guru') }}">Siti Aminah S.Pd</a>
                     </h3>
-                    <p class="mentor_designation">AQ/Mentor</p>
+                    <p class="mentor_designation">Guru Kelas 1 & Pendamping Keagamaan</p>
                     <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>120 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>4.9 (22 reviews)</span>
-                      </li>
                     </ul>
                   </div>
                 </div>
@@ -157,23 +133,11 @@
               <div class="col col-lg-3 col-md-6">
                 <div class="counter_item">
                   <h3 class="counter_value">
-                    <span class="counter_value_text">500</span>
+                    <span class="counter_value_text">300</span>
                     <span>+</span>
                   </h3>
                   <p class="mb-0">
-                    Hours of hands-on learning in our courses
-                  </p>
-                </div>
-              </div>
-
-              <div class="col col-lg-3 col-md-6">
-                <div class="counter_item">
-                  <h3 class="counter_value">
-                    <span class="counter_value_text">1500</span>
-                    <span>+</span>
-                  </h3>
-                  <p class="mb-0">
-                    Students Passed Our Competitions and Got a Job
+                    Siswa Aktif Berprestasi
                   </p>
                 </div>
               </div>
@@ -182,10 +146,10 @@
                 <div class="counter_item">
                   <h3 class="counter_value">
                     <span class="counter_value_text">25</span>
-                    <span>/75</span>
+                    <span>+</span>
                   </h3>
                   <p class="mb-0">
-                    The Ratio of Theory and Practice in Each Course
+                    Tenaga Pendidik Profesional & Kompeten
                   </p>
                 </div>
               </div>
@@ -193,11 +157,23 @@
               <div class="col col-lg-3 col-md-6">
                 <div class="counter_item">
                   <h3 class="counter_value">
-                    <span class="counter_value_text">40</span>
+                    <span class="counter_value_text">12</span>
                     <span>+</span>
                   </h3>
                   <p class="mb-0">
-                    We teach people from 4 continents and over 40 countries
+                    Kegiatan Ekstrakurikuler Pilihan
+                  </p>
+                </div>
+              </div>
+
+              <div class="col col-lg-3 col-md-6">
+                <div class="counter_item">
+                  <h3 class="counter_value">
+                    <span class="counter_value_text">100</span>
+                    <span>%</span>
+                  </h3>
+                  <p class="mb-0">
+                    Komitmen Pendidikan Akhlak & Karakter Islami
                   </p>
                 </div>
               </div>

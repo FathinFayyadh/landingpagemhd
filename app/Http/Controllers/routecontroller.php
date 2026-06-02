@@ -24,6 +24,9 @@ class routecontroller extends Controller
     public function DetailGuru(){
         return view('landing.detail-guru');
     }
+    public function StrukturOrganisasi(){
+        return view('landing.struktur-organisasi');
+    }
 
 }
 

@@ -1,6 +1,6 @@
 @extends('template')
-@include('landing.navbar')
 @section('title', 'SD Muhammadiyah 10 Medan')
+@section('content')
 @include('landing.navbar')
 <main class="page_content">
 
@@ -87,13 +87,13 @@
                     <div class="service_item text-center" data-magnetic>
                       <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/assets/images/gold-medal.png")}}" alt="Collab – Online Learning Platform">
+                          <img  src="{{asset("landingpage/assets/images/gold-medal.png")}}" alt="Karakter Islami">
                         </div>
                       </div>
                       <div class="item_content">
-                        <h3 class="item_title">Knowledge</h3>
+                        <h3 class="item_title">Karakter Islami</h3>
                         <p class="mb-0">
-                          Duis aute irure dolor in repreh in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                          Menerapkan pembiasaan ibadah harian, tahfidz Al-Qur'an juz 30, dan pembentukan akhlak mulia sejak dini.
                         </p>
                       </div>
                     </div>
@@ -102,13 +102,13 @@
                     <div class="service_item" data-magnetic>
                      <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/assets/images/graduation-hat.png")}}" alt="Collab – Online Learning Platform">
+                          <img  src="{{asset("landingpage/assets/images/graduation-hat.png")}}" alt="Akademik Unggul">
                         </div>
                       </div>
                       <div class="item_content">
-                        <h3 class="item_title">Unlimited access</h3>
+                        <h3 class="item_title">Akademik Unggul</h3>
                         <p class="mb-0">
-                          Libero nunc consequat interd varius sit amet mattis vulpute enim liquet sagittis
+                          Pembelajaran aktif berbasis Kurikulum Merdeka yang dikolaborasikan dengan nilai keagamaan yang inovatif.
                         </p>
                       </div>
                     </div>
@@ -117,13 +117,13 @@
                     <div class="service_item" data-magnetic>
                       <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/Template/assets/images/office-man.png")}}" alt="Collab – Online Learning Platform">
+                          <img  src="{{asset("landingpage/assets/images/office-man.png")}}" alt="Minat & Bakat">
                         </div>
                       </div>
                       <div class="item_content">
-                        <h3 class="item_title">Practical Skills</h3>
+                        <h3 class="item_title">Minat & Bakat</h3>
                         <p class="mb-0">
-                          Vulputate enim nulla aliquet porttitor lacus luctus accums. Cras sed felis eget velit
+                          Berbagai program ekstrakurikuler seperti seni bela diri Tapak Suci, pramuka Hisbul Wathan, dan kelas IT.
                         </p>
                       </div>
                     </div>
@@ -132,10 +132,10 @@
 
                 <!-- Button will show on Mobile Device -->
                 <div class="btn_wrap pb-0 d-block d-lg-none text-center">
-                  <a class="btn border_dark" href="course.html">
+                  <a class="btn border_dark" href="{{ route('aboute') }}">
                     <span>
-                      <small>Explore Courses</small>
-                      <small>Explore Courses</small>
+                      <small>Lihat Profil</small>
+                      <small>Lihat Profil</small>
                     </span>
                   </a>
                 </div>
@@ -154,14 +154,17 @@
                   <h2 class="heading_text text-white">
                     Visi Dan Misi
                   </h2>
-                  <p class="heading_description mb-0 text-white">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  <p class="heading_description mb-3 text-white">
+                    <strong>Visi:</strong> Mewujudkan generasi cerdas, mandiri, berprestasi, dan berakhlak mulia berlandaskan nilai-nilai Al-Islam dan Kemuhammadiyahan.
+                  </p>
+                  <p class="heading_description mb-4 text-white">
+                    <strong>Misi:</strong> Menyelenggarakan proses pembelajaran inovatif berbasis nilai keagamaan, menanamkan karakter jujur, mandiri, disiplin, serta membina minat dan bakat secara optimal.
                   </p>
                   <div class="btn_wrap pb-0">
-                    <a class="btn btn_primary" href="course.html">
+                    <a class="btn btn_primary" href="{{route('aboute')}}">
                       <span>
-                        <small>Explore Courses</small>
-                        <small>Explore Courses</small>
+                        <small>Profil Sekolah</small>
+                        <small>Profil Sekolah</small>
                       </span>
                     </a>
                   </div>
@@ -204,7 +207,7 @@
                      Hubungi Kami
                     </h2>
                     <p class="heading_description mb-0">
-                      Viverra maecenas accumsan lacus vel facilisis volutpat. Faucibus purus in massa tempor nec feugiat nisl
+                      Silakan hubungi tim administrasi kami untuk informasi pendaftaran, kegiatan sekolah, atau kunjungan langsung ke sekolah.
                     </p>
                   </div>
                   <div class="iconbox_item contact_info_iconbox">
@@ -212,9 +215,9 @@
                       <i class="fas fa-phone"></i>
                     </div>
                     <div class="item_content">
-                      <h3 class="item_title">Call Us</h3>
-                      <p class="mb-0">(101) 222 123 456</p>
-                      <p class="mb-0">(102) 333 234 674</p>
+                      <h3 class="item_title">Telepon & WA</h3>
+                      <p class="mb-0">(061) 732-1010</p>
+                      <p class="mb-0">+62 812-3456-7890</p>
                     </div>
                   </div>
                   <div class="iconbox_item contact_info_iconbox">
@@ -222,9 +225,9 @@
                       <i class="fas fa-envelope"></i>
                     </div>
                     <div class="item_content">
-                      <h3 class="item_title">Email Address</h3>
-                      <p class="mb-0">info-collab@example.com</p>
-                      <p class="mb-0">collab-support@exapmple.com</p>
+                      <h3 class="item_title">Alamat Email</h3>
+                      <p class="mb-0">sdmuhammadiyah10medan@gmail.com</p>
+                      <p class="mb-0">info@sdmuh10medan.sch.id</p>
                     </div>
                   </div>
                   <div class="iconbox_item contact_info_iconbox">
@@ -232,9 +235,9 @@
                       <i class="fas fa-location-dot"></i>
                     </div>
                     <div class="item_content">
-                      <h3 class="item_title">Reach Us</h3>
-                      <p class="mb-0">31 Sunset Road, Gales Ferry, </p>
-                      <p class="mb-0">6335 United States</p>
+                      <h3 class="item_title">Alamat Sekolah</h3>
+                      <p class="mb-0">Jl. H. Adenan Benawi No.66, Sudirejo I,</p>
+                      <p class="mb-0">Medan Kota, Kota Medan, Sumatera Utara 20216</p>
                     </div>
                   </div>
                 </div>
@@ -248,3 +251,4 @@
           </div>
         </section>
       </main>
+@endsection

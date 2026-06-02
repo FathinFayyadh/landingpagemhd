@@ -4,7 +4,7 @@
             <div class="col col-lg-3 col-5">
               <div class="site_logo">
                 <a class="site_link" href="{{route('home')}}">
-                  <img src="{{asset("landingpage/assets/images/logo/navbarmhd.png")}}" alt="Collab - Online Learning Platform">
+                  <img src="{{asset("landingpage/assets/images/logo/navbarmhd.png")}}" alt="SD Muhammadiyah 10 Medan">
                 </a>
               </div>
             </div>
@@ -12,36 +12,37 @@
               <nav class="main_menu navbar navbar-expand-lg">
                 <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
                   <ul class="main_menu_list unordered_list_center">
-
-                      <li class=" ">
-                      <a class="nav-link" href="#" id="home_submenu" role="button"  >Program </a>
+                    <li class=" ">
+                      <a class="nav-link" href="{{route('home')}}" role="button">Beranda</a>
                     </li>
                     <li class="dropdown">
                       <a class="nav-link" href="#" id="service_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Tentang Sekolah
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="service_submenu">
-
-                        <li class="dropdown">
-                          <a class="nav-link" href="#" id="courses_details_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Program Sekolah
+                        <li>
+                          <a class="dropdown-item" href="{{route('aboute')}}">
+                            Profil & Visi Misi
                           </a>
                         </li>
-                        <li class="dropdown">
-                          <a class="nav-link" href="#" id="courses_details_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Struktur Orgnisasi
+                        <li>
+                          <a class="dropdown-item" href="{{route('struktur-organisasi')}}">
+                            Struktur Organisasi
                           </a>
                         </li>
-                        <li class="dropdown">
-                             <a class="nav-link" href="{{route('Profil-guru')}}"  role="button"  aria-expanded="false">
-                          Profil Guru dan Staf
+                        <li>
+                          <a class="dropdown-item" href="{{route('fasilitas')}}">
+                            Fasilitas & Program
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="{{route('Profil-guru')}}">
+                            Profil Guru dan Staf
                           </a>
                         </li>
                       </ul>
                     </li>
-
-
-                    <li><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
+                    <li><a class="nav-link" href="{{route('contact')}}">Hubungi Kami</a></li>
                   </ul>
                 </div>
               </nav>
@@ -53,9 +54,8 @@
                     <i class="far fa-bars"></i>
                   </button>
                 </li>
-
                 <li>
-                  <a class="btn btn_dark" href="signup.html">
+                  <a class="btn btn_dark" href="{{route('contact')}}">
                     <span>
                       <small>PPDB</small>
                       <small>PPDB</small>

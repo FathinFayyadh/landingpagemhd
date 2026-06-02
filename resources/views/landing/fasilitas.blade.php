@@ -1,5 +1,5 @@
 @extends('template')
-@section('title', 'Profil Guru dan Staf')
+@section('title', 'Fasilitas Sekolah')
 @section('content')
 @include('landing.navbar')
 <main class="page_content">
@@ -8,30 +8,17 @@
         ================================================== -->
         <section class="page_banner">
           <div class="container">
-            <div class="content_wrapper" style="background-image: url('assets/images/banner/page_banner_image.png');">
+            <div class="content_wrapper bg-danger" style="background-image: url('{{ asset('landingpage/assets/images/banner/page_banner_image.png') }}');">
               <div class="row align-items-center">
                 <div class="col col-lg-6">
                   <ul class="breadcrumb_nav unordered_list">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Pages</li>
-                    <li>Our Mentors</li>
-                    <li>Mentors</li>
+                    <li><a href="{{ route('home') }}">Beranda</a></li>
+                    <li>Fasilitas</li>
                   </ul>
-                  <h1 class="page_title">Our Mentors</h1>
-                  <p class="page_description">
-                    Egestas sed tempus urna et pharetra. Leo integer malesuada nunc vel. Libero id faucibus nisl tincidunt eget nullam non nisi. Faucibus turpis in eu mi bibendum neque egestas
+                  <h1 class="page_title text-white">Fasilitas</h1>
+                  <p class="page_description text-white">
+                    SD Muhammadiyah 10 Medan menyediakan sarana dan prasarana yang lengkap dan modern untuk menunjang kenyamanan belajar serta mengoptimalkan potensi akademis dan karakter siswa.
                   </p>
-                  <form action="#">
-                    <div class="form_item mb-0">
-                      <input type="search" name="search" placeholder="What do you want to learn ?">
-                      <button type="submit" class="btn btn_dark">
-                        <span>
-                          <small>Search</small>
-                          <small>Search</small>
-                        </span>
-                      </button>
-                    </div>
-                  </form>
                 </div>
               </div>
             </div>
@@ -40,166 +27,107 @@
         <!-- Page Section - End
         ================================================== -->
 
-        <!-- Mentor Section - Start
+        <!-- Facilities Section - Start
         ================================================== -->
         <section class="mentor_section section_space_lg">
           <div class="container">
             <div class="row">
-                <h1 class="text-center m-3">Profil Guru dan Staf</h1>
-              <div class="col col-lg-4 col-md-6">
+              <h1 class="text-center m-5">Fasilitas Unggulan Kami</h1>
+              
+              <!-- Fasilitas 1 -->
+              <div class="col col-lg-4 col-md-6 mb-4">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="{{ route('detail-guru') }}">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="assets/images/mentor/mentor_image_4.jpg" alt="Collab – Online Learning Platform">
-                    </a>
+                    <img src="{{ asset('landingpage/assets/images/about/about-profil.png') }}" alt="Ruang Kelas Nyaman" style="border-radius: 8px; width: 100%; height: 220px; object-fit: cover;">
                   </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name">
-                      <a href="mentor_details.html">Alex Edwards</a>
-                    </h3>
-                    <p class="mentor_designation">Fullstack developer</p>
-                    <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>120 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>4.9 (22 reviews)</span>
-                      </li>
-                    </ul>
+                  <div class="mentor_content mt-3">
+                    <h3 class="mentor_name text-dark font-weight-bold">Ruang Kelas Nyaman</h3>
+                    <p class="mentor_designation text-muted" style="font-size: 14px; line-height: 1.5;">
+                      Ruang kelas yang representatif, bersih, ber-AC, serta dilengkapi dengan media pembelajaran multimedia LCD proyektor untuk metode belajar interaktif.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-6">
+
+              <!-- Fasilitas 2 -->
+              <div class="col col-lg-4 col-md-6 mb-4">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
-                    </a>
+                    <img src="{{ asset('landingpage/assets/images/misi.jpg') }}" alt="Laboratorium Komputer" style="border-radius: 8px; width: 100%; height: 220px; object-fit: cover;">
                   </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name">
-                      <a href="mentor_details.html">Wendy Chandler</a>
-                    </h3>
-                    <p class="mentor_designation">Java Developer</p>
-                    <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>100 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>5 (10 reviews)</span>
-                      </li>
-                    </ul>
+                  <div class="mentor_content mt-3">
+                    <h3 class="mentor_name text-dark font-weight-bold">Lab Komputer & IT</h3>
+                    <p class="mentor_designation text-muted" style="font-size: 14px; line-height: 1.5;">
+                      Fasilitas komputer modern untuk membekali siswa dengan literasi teknologi digital dan kelas pemrograman dasar sejak usia dini.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-6">
+
+              <!-- Fasilitas 3 -->
+              <div class="col col-lg-4 col-md-6 mb-4">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
-                    </a>
+                    <img src="{{ asset('landingpage/assets/images/visi-misi.png') }}" alt="Perpustakaan Lengkap" style="border-radius: 8px; width: 100%; height: 220px; object-fit: cover;">
                   </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name">
-                      <a href="mentor_details.html">James Grant</a>
-                    </h3>
-                    <p class="mentor_designation">Fullstack developer</p>
-                    <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>120 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>4.9 (22 reviews)</span>
-                      </li>
-                    </ul>
+                  <div class="mentor_content mt-3">
+                    <h3 class="mentor_name text-dark font-weight-bold">Perpustakaan</h3>
+                    <p class="mentor_designation text-muted" style="font-size: 14px; line-height: 1.5;">
+                      Menyediakan ratusan koleksi buku bacaan edukatif, buku sains, pengetahuan umum, serta buku keagamaan Islami untuk memupuk minat baca siswa.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-6">
+
+              <!-- Fasilitas 4 -->
+              <div class="col col-lg-4 col-md-6 mb-4">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
-                    </a>
+                    <img src="{{ asset('landingpage/assets/images/visii.jpg') }}" alt="Musholla Al-Ikhlas" style="border-radius: 8px; width: 100%; height: 220px; object-fit: cover;">
                   </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name">
-                      <a href="mentor_details.html">Carolyn Jackson</a>
-                    </h3>
-                    <p class="mentor_designation">Fullstack developer</p>
-                    <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>120 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>4.9 (22 reviews)</span>
-                      </li>
-                    </ul>
+                  <div class="mentor_content mt-3">
+                    <h3 class="mentor_name text-dark font-weight-bold">Musholla Sekolah</h3>
+                    <p class="mentor_designation text-muted" style="font-size: 14px; line-height: 1.5;">
+                      Sarana ibadah yang bersih dan nyaman sebagai tempat pembiasaan shalat berjamaah, hafalan surah (tahfidz), dan pembinaan spiritual akhlak mulia.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-6">
+
+              <!-- Fasilitas 5 -->
+              <div class="col col-lg-4 col-md-6 mb-4">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
-                    </a>
+                    <img src="{{ asset('landingpage/assets/images/vis.jpg') }}" alt="Lapangan Olahraga" style="border-radius: 8px; width: 100%; height: 220px; object-fit: cover;">
                   </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name">
-                      <a href="mentor_details.html">William Morgan</a>
-                    </h3>
-                    <p class="mentor_designation">Python Mentor</p>
-                    <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>100 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>5 (10 reviews)</span>
-                      </li>
-                    </ul>
+                  <div class="mentor_content mt-3">
+                    <h3 class="mentor_name text-dark font-weight-bold">Lapangan Olahraga</h3>
+                    <p class="mentor_designation text-muted" style="font-size: 14px; line-height: 1.5;">
+                      Area luas terbuka untuk mendukung aktivitas fisik, olahraga (futsal, badminton, senam), upacara bendera, dan latihan Tapak Suci.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-6">
+
+              <!-- Fasilitas 6 -->
+              <div class="col col-lg-4 col-md-6 mb-4">
                 <div class="mentor_item">
                   <div class="mentor_image">
-                    <a href="mentor_details.html">
-                      <img src="{{ asset('landingpage/Template//assets/images/mentor/Profil.jpg') }}" alt="Collab – Online Learning Platform">
-                    </a>
+                    <img src="{{ asset('landingpage/assets/images/bannersd.png') }}" alt="Area Bermain Terbuka" style="border-radius: 8px; width: 100%; height: 220px; object-fit: cover;">
                   </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name">
-                      <a href="mentor_details.html">Christine Nelson</a>
-                    </h3>
-                    <p class="mentor_designation">AQ/Mentor</p>
-                    <ul class="meta_info_list unordered_list_center mb-0">
-                      <li>
-                        <i class="fas fa-clock"></i>
-                        <span>120 Hours</span>
-                      </li>
-                      <li>
-                        <i class="fas fa-star"></i>
-                        <span>4.9 (22 reviews)</span>
-                      </li>
-                    </ul>
+                  <div class="mentor_content mt-3">
+                    <h3 class="mentor_name text-dark font-weight-bold">Taman & Area Bermain</h3>
+                    <p class="mentor_designation text-muted" style="font-size: 14px; line-height: 1.5;">
+                      Lingkungan sekolah yang asri, hijau, bersih, serta aman untuk menunjang tumbuh kembang fisik dan interaksi sosial ramah anak.
+                    </p>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </section>
-        <!-- Mentor Section - End
+        <!-- Facilities Section - End
         ================================================== -->
 
         <!-- Counter Section - Start
@@ -210,23 +138,11 @@
               <div class="col col-lg-3 col-md-6">
                 <div class="counter_item">
                   <h3 class="counter_value">
-                    <span class="counter_value_text">500</span>
+                    <span class="counter_value_text">300</span>
                     <span>+</span>
                   </h3>
                   <p class="mb-0">
-                    Hours of hands-on learning in our courses
-                  </p>
-                </div>
-              </div>
-
-              <div class="col col-lg-3 col-md-6">
-                <div class="counter_item">
-                  <h3 class="counter_value">
-                    <span class="counter_value_text">1500</span>
-                    <span>+</span>
-                  </h3>
-                  <p class="mb-0">
-                    Students Passed Our Competitions and Got a Job
+                    Siswa Aktif Berprestasi
                   </p>
                 </div>
               </div>
@@ -235,10 +151,10 @@
                 <div class="counter_item">
                   <h3 class="counter_value">
                     <span class="counter_value_text">25</span>
-                    <span>/75</span>
+                    <span>+</span>
                   </h3>
                   <p class="mb-0">
-                    The Ratio of Theory and Practice in Each Course
+                    Tenaga Pendidik Profesional & Kompeten
                   </p>
                 </div>
               </div>
@@ -246,11 +162,23 @@
               <div class="col col-lg-3 col-md-6">
                 <div class="counter_item">
                   <h3 class="counter_value">
-                    <span class="counter_value_text">40</span>
+                    <span class="counter_value_text">12</span>
                     <span>+</span>
                   </h3>
                   <p class="mb-0">
-                    We teach people from 4 continents and over 40 countries
+                    Kegiatan Ekstrakurikuler Pilihan
+                  </p>
+                </div>
+              </div>
+
+              <div class="col col-lg-3 col-md-6">
+                <div class="counter_item">
+                  <h3 class="counter_value">
+                    <span class="counter_value_text">100</span>
+                    <span>%</span>
+                  </h3>
+                  <p class="mb-0">
+                    Komitmen Pendidikan Akhlak & Karakter Islami
                   </p>
                 </div>
               </div>
@@ -260,6 +188,5 @@
         <!-- Counter Section - End
         ================================================== -->
 
-
-
+</main>
 @endsection
