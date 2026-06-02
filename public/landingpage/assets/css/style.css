@@ -4886,3 +4886,43 @@ Responsive For Mobile & Tablet Devices
 }
 /* Media Screen 320px - End
 ================================================== */
+
+/* Custom Image Sizing & Layout Fixes
+================================================== */
+
+/* Visi & Misi section images styling */
+.advertisement_section .images_group .image_wrap {
+  height: 240px !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  border-radius: 8px !important;
+}
+.advertisement_section .images_group .image_wrap img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+/* Service Item icons styling */
+.service_item .item_icon img {
+  max-width: 36px !important;
+  max-height: 36px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* Hero Banner profile image styling */
+.banner_image_1 .image_wrap img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+
+/* About Us image widget styling */
+.image_widget img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+

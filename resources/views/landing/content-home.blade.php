@@ -27,7 +27,7 @@
                 <div class="col col-lg-5">
                   <div class="banner_image_1 decoration_wrap">
                     <div class="image_wrap">
-                      <img src="{{asset("landingpage/assets/images/bannersd.png")}}" alt="Collab – Online Learning Platform">
+                      <img src="{{asset("landingpage/assets/images/profilhuman.png")}}" alt="Collab – Online Learning Platform">
                     </div>
 
                     <div class="deco_item shape_img_1 w-25" data-parallax='{"y" : -130, "smoothness": 6}'>
@@ -83,11 +83,11 @@
               <h1 class="heading_text text-center m-3">Keunggulan SD Muhammadiyah 10 Medan</h1>
               <p class="text-center mb-4 fw-bold fs-5">SD Muhammadiyah 10 Medan dikenal sebagai sekolah yang unggul dalam membentuk karakter peserta didik, seperti:</p>
                 <div class="row justify-content-center align-items-center">
-                  <div class="col col-md-3">
+                  <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service_item text-center" data-magnetic>
                       <div class="text-center w-100 align-items-center d-flex justify-content-center">
-                        <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/assets/images/gold-medal.png")}}" alt="Karakter Islami">
+                        <div class="item_icon">
+                          <img src="{{asset("landingpage/assets/images/gold-medal.png")}}" alt="Karakter Islami">
                         </div>
                       </div>
                       <div class="item_content">
@@ -98,11 +98,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col col-md-3">
-                    <div class="service_item" data-magnetic>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service_item text-center" data-magnetic>
                      <div class="text-center w-100 align-items-center d-flex justify-content-center">
-                        <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/assets/images/graduation-hat.png")}}" alt="Akademik Unggul">
+                        <div class="item_icon">
+                          <img src="{{asset("landingpage/assets/images/graduation-hat.png")}}" alt="Akademik Unggul">
                         </div>
                       </div>
                       <div class="item_content">
@@ -113,11 +113,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col col-md-3">
-                    <div class="service_item" data-magnetic>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service_item text-center" data-magnetic>
                       <div class="text-center w-100 align-items-center d-flex justify-content-center">
-                        <div class="item_icon  ">
-                          <img  src="{{asset("landingpage/assets/images/office-man.png")}}" alt="Minat & Bakat">
+                        <div class="item_icon">
+                          <img src="{{asset("landingpage/assets/images/office-man.png")}}" alt="Minat & Bakat">
                         </div>
                       </div>
                       <div class="item_content">
