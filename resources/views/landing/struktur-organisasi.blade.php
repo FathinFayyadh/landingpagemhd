@@ -2,7 +2,7 @@
 @section('title', 'Struktur Organisasi')
 @section('content')
 @include('landing.navbar')
-<main class="page_content">
+<main class="page_content" style="background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('{{ asset('landingpage/assets/images/batik_background.jpg') }}'); background-repeat: repeat; background-size: 300px; position: relative;">
 
         <!-- Page Section - Start
         ================================================== -->
@@ -27,6 +27,86 @@
         <!-- Page Section - End
         ================================================== -->
 
+        <style>
+          .mentor_section .row {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          /* Ensure all grid columns behave as flex containers to stretch cards */
+          .mentor_section [class*="col-"] {
+            display: flex;
+            flex-direction: column;
+          }
+          .mentor_item {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #EAEAEA;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+          }
+          .mentor_item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-color: #FFD32B !important;
+          }
+          .mentor_image {
+            width: 100%;
+            height: 250px; /* Uniform height on desktop */
+            overflow: hidden;
+            position: relative;
+            background-color: #f8f9fa;
+          }
+          @media (max-width: 767.98px) {
+            .mentor_image {
+              height: 340px; /* Taller on mobile so faces are fully visible */
+            }
+          }
+          .mentor_image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            transition: transform 0.3s ease;
+          }
+          .mentor_item:hover .mentor_image img {
+            transform: scale(1.05);
+          }
+          .mentor_content {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: center;
+          }
+          .mentor_name {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+          }
+          .mentor_name a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s ease;
+          }
+          .mentor_name a:hover {
+            color: #FFD32B;
+          }
+          .mentor_designation {
+            font-size: 13px;
+            color: #777777;
+            margin-bottom: 0;
+            line-height: 1.5;
+            margin-top: auto; /* Push designation to bottom */
+          }
+        </style>
+
         <!-- Organizational Structure Section - Start
         ================================================== -->
         <section class="mentor_section section_space_lg">
@@ -38,19 +118,19 @@
 
             <!-- LEVEL 1: KEPALA SEKOLAH -->
             <div class="row justify-content-center mb-5">
-              <div class="col col-lg-4 col-md-6 text-center">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 text-center">
                 <div class="text-uppercase text-danger fw-bold mb-2" style="font-size: 13px; letter-spacing: 2px;">Kepala Sekolah</div>
                 <div class="mentor_item" style="border: 2px solid #FFD32B; box-shadow: 0 10px 30px rgba(255, 211, 43, 0.15);">
                   <div class="mentor_image">
                     <a href="{{ route('detail-guru') }}">
-                      <img src="{{ asset('landingpage/assets/images/mentor/guru2.png') }}" alt="Dra. Hj. Maimunah" style="border-radius: 8px;">
+                      <img src="{{ asset('landingpage/assets/images/mentor/') }}" alt="Evi Handayani S.Pd">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="{{ route('detail-guru') }}">Dra. Hj. Maimunah</a>
+                      <a href="{{ route('detail-guru') }}">Evi Handayani S.Pd</a>
                     </h3>
-                    <p class="mentor_designation mb-0">Kepala Sekolah / Penanggung Jawab Utama</p>
+                    <p class="mentor_designation">Kepala Sekolah / Penanggung Jawab Utama</p>
                   </div>
                 </div>
               </div>
@@ -64,19 +144,19 @@
             <!-- LEVEL 2: KOMITE & BENDAHARA / SEKRETARIS -->
             <div class="row justify-content-center mb-5">
               <!-- Komite Sekolah -->
-              <div class="col col-lg-4 col-md-6 text-center mb-4">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 text-center mb-4">
                 <div class="text-uppercase text-danger fw-bold mb-2" style="font-size: 13px; letter-spacing: 2px;">Komite Sekolah</div>
-                <div class="mentor_item" style="border: 1px solid #D2D2D2;">
+                <div class="mentor_item">
                   <div class="mentor_image">
                     <a href="#!">
-                      <img src="{{ asset('landingpage/assets/images/mentor/guru2.png') }}" alt="Drs. H. Ahmad Fauzi" style="border-radius: 8px;">
+                      <img src="{{ asset('landingpage/assets/images/mentor/') }}" alt="FARADIBBA MUTIARA MAHARANI, S.Kom">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="#!">Drs. H. Ahmad Fauzi</a>
+                      <a href="#!">FARADIBBA MUTIARA MAHARANI, S.Kom</a>
                     </h3>
-                    <p class="mentor_designation mb-0">Ketua Komite Sekolah</p>
+                    <p class="mentor_designation">Ketua Komite Sekolah</p>
                   </div>
                 </div>
               </div>
@@ -85,19 +165,19 @@
               <div class="d-none d-lg-block col-lg-1"></div>
 
               <!-- Bendahara & Administrasi -->
-              <div class="col col-lg-4 col-md-6 text-center mb-4">
-                <div class="text-uppercase text-danger fw-bold mb-2" style="font-size: 13px; letter-spacing: 2px;">Keuangan & Admisitrasi</div>
-                <div class="mentor_item" style="border: 1px solid #D2D2D2;">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 text-center mb-4">
+                <div class="text-uppercase text-danger fw-bold mb-2" style="font-size: 13px; letter-spacing: 2px;">Keuangan & Administrasi</div>
+                <div class="mentor_item">
                   <div class="mentor_image">
                     <a href="{{ route('detail-guru') }}">
-                      <img src="{{ asset('landingpage/assets/images/mentor/guru3.png') }}" alt="Devi Safriani" style="border-radius: 8px;">
+                      <img src="{{ asset('landingpage/assets/images/mentor/') }}" alt="Bendahara Sekolah">
                     </a>
                   </div>
                   <div class="mentor_content">
                     <h3 class="mentor_name">
-                      <a href="{{ route('detail-guru') }}">Devi Safriani</a>
+                      <a href="{{ route('detail-guru') }}">NO Name</a>
                     </h3>
-                    <p class="mentor_designation mb-0">Bendahara Sekolah / Guru Kelas 5A</p>
+                    <p class="mentor_designation">Bendahara Sekolah</p>
                   </div>
                 </div>
               </div>
@@ -117,79 +197,49 @@
             </div>
 
             <div class="row justify-content-center">
-              <!-- Guru 1: Al-Islam/KMD -->
-              <div class="col col-lg-3 col-md-6 mb-4 text-center">
-                <div class="mentor_item" style="border: 1px solid #EAEAEA; transition: all 0.3s ease;">
+              @foreach($dewan_guru as $guru)
+              @php
+                $imagePath = '';
+                if (!empty($guru['image'])) {
+                    $imagePath = asset('landingpage/assets/images/mentor/' . $guru['image']);
+                } else {
+                    $nameLower = strtolower($guru['name']);
+                    $isFemale = str_contains($nameLower, 'sri') || 
+                                str_contains($nameLower, 'aini') || 
+                                str_contains($nameLower, 'devi') || 
+                                str_contains($nameLower, 'tetty') || 
+                                str_contains($nameLower, 'zakiya') || 
+                                str_contains($nameLower, 'soleha') || 
+                                str_contains($nameLower, 'hilda') || 
+                                str_contains($nameLower, 'mila') || 
+                                str_contains($nameLower, 'atika') || 
+                                str_contains($nameLower, 'rohimah') || 
+                                str_contains($nameLower, 'nuraida') ||
+                                str_contains($nameLower, 'evi') ||
+                                str_contains($nameLower, 'faradibba') ||
+                                str_contains($nameLower, 'maimunah');
+                    $imagePath = $isFemale ? asset('landingpage/assets/images/mentor/') : asset('landingpage/assets/images/mentor/');
+                }
+              @endphp
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 text-center">
+                <div class="mentor_item">
                   <div class="mentor_image">
                     <a href="{{ route('detail-guru') }}">
-                      <img src="{{ asset('landingpage/assets/images/mentor/profil1.jpeg') }}" alt="Abdul Rasyid S.Ag.Gr" style="border-radius: 8px; width: 100%; height: 200px; object-fit: cover;">
+                      <img src="{{ $imagePath }}" alt="{{ $guru['name'] }}">
                     </a>
                   </div>
                   <div class="mentor_content">
-                    <h3 class="mentor_name" style="font-size: 18px;">
-                      <a href="{{ route('detail-guru') }}">Abdul Rasyid S.Ag.Gr</a>
+                    <h3 class="mentor_name">
+                      <a href="{{ route('detail-guru') }}">{{ $guru['name'] }}</a>
                     </h3>
-                    <p class="mentor_designation mb-0" style="font-size: 13px;">Guru Al-Islam & Kemuhammadiyahan</p>
+                    <p class="mentor_designation text-muted">{{ $guru['role'] }}</p>
                   </div>
                 </div>
               </div>
-
-              <!-- Guru 2: Olahraga -->
-              <div class="col col-lg-3 col-md-6 mb-4 text-center">
-                <div class="mentor_item" style="border: 1px solid #EAEAEA; transition: all 0.3s ease;">
-                  <div class="mentor_image">
-                    <a href="{{ route('detail-guru') }}">
-                      <img src="{{ asset('landingpage/assets/images/mentor/guru2.png') }}" alt="Adi Jandru S.Pd" style="border-radius: 8px; width: 100%; height: 200px; object-fit: cover;">
-                    </a>
-                  </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name" style="font-size: 18px;">
-                      <a href="{{ route('detail-guru') }}">Adi Jandru S.Pd</a>
-                    </h3>
-                    <p class="mentor_designation mb-0" style="font-size: 13px;">Guru Olahraga & Wali Kelas</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Guru 3: Matematika & K6 -->
-              <div class="col col-lg-3 col-md-6 mb-4 text-center">
-                <div class="mentor_item" style="border: 1px solid #EAEAEA; transition: all 0.3s ease;">
-                  <div class="mentor_image">
-                    <a href="{{ route('detail-guru') }}">
-                      <img src="{{ asset('landingpage/assets/images/mentor/guru3.png') }}" alt="Faisal Rahman S.Pd" style="border-radius: 8px; width: 100%; height: 200px; object-fit: cover;">
-                    </a>
-                  </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name" style="font-size: 18px;">
-                      <a href="{{ route('detail-guru') }}">Faisal Rahman S.Pd</a>
-                    </h3>
-                    <p class="mentor_designation mb-0" style="font-size: 13px;">Guru Kelas 6 & Bidang Studi Matematika</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Guru 4: K1 & Keagamaan -->
-              <div class="col col-lg-3 col-md-6 mb-4 text-center">
-                <div class="mentor_item" style="border: 1px solid #EAEAEA; transition: all 0.3s ease;">
-                  <div class="mentor_image">
-                    <a href="{{ route('detail-guru') }}">
-                      <img src="{{ asset('landingpage/assets/images/mentor/guru3.png') }}" alt="Siti Aminah S.Pd" style="border-radius: 8px; width: 100%; height: 200px; object-fit: cover;">
-                    </a>
-                  </div>
-                  <div class="mentor_content">
-                    <h3 class="mentor_name" style="font-size: 18px;">
-                      <a href="{{ route('detail-guru') }}">Siti Aminah S.Pd</a>
-                    </h3>
-                    <p class="mentor_designation mb-0" style="font-size: 13px;">Guru Kelas 1 & Pendamping Keagamaan</p>
-                  </div>
-                </div>
-              </div>
+              @endforeach
             </div>
-
           </div>
         </section>
-        <!-- Organizational Structure Section - End
-        ================================================== -->
 
 </main>
 @endsection

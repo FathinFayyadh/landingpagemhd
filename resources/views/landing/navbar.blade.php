@@ -37,11 +37,12 @@
                         </li>
                         <li>
                           <a class="dropdown-item" href="{{route('Profil-guru')}}">
-                            Profil Guru dan Staf
+                            Profil Guru
                           </a>
                         </li>
                       </ul>
                     </li>
+                    <li><a class="nav-link" href="{{route('brosur')}}">Brosur</a></li>
                     <li><a class="nav-link" href="{{route('contact')}}">Hubungi Kami</a></li>
                   </ul>
                 </div>

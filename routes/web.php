@@ -15,4 +15,5 @@ Route::get('/login-siwsa', [routecontroller::class, 'SiswaLogin'])->name('siswa-
 Route::get('/profil-guru', [routecontroller::class, 'ProfilGuru'])->name('Profil-guru');
 Route::get('/detail-guru', [routecontroller::class, 'DetailGuru'])->name('detail-guru');
 Route::get('/struktur-organisasi', [routecontroller::class, 'StrukturOrganisasi'])->name('struktur-organisasi');
+Route::get('/brosur', [routecontroller::class, 'Brosur'])->name('brosur');
 // end home

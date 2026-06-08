@@ -2,7 +2,7 @@
 @section('title', 'SD Muhammadiyah 10 Medan')
 @section('content')
 @include('landing.navbar')
-<main class="page_content">
+<main class="page_content" style="background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('{{ asset('landingpage/assets/images/batik_background.jpg') }}'); background-repeat: repeat; background-size: 300px; position: relative;">
 
         <!-- Banner Section - Start
         ================================================== -->
@@ -84,7 +84,7 @@
               <p class="text-center mb-4 fw-bold fs-5">SD Muhammadiyah 10 Medan dikenal sebagai sekolah yang unggul dalam membentuk karakter peserta didik, seperti:</p>
                 <div class="row justify-content-center align-items-center">
                   <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service_item text-center" data-magnetic>
+                    <div class="service_item text-center" data-magnetic style="background: #ffffff;">
                       <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon">
                           <img src="{{asset("landingpage/assets/images/gold-medal.png")}}" alt="Karakter Islami">
@@ -93,13 +93,13 @@
                       <div class="item_content">
                         <h3 class="item_title">Karakter Islami</h3>
                         <p class="mb-0">
-                          Menerapkan pembiasaan ibadah harian, tahfidz Al-Qur'an juz 30, dan pembentukan akhlak mulia sejak dini.
+                          Menerapkan pembiasaan ibadah harian, tahfidz Al-Qur'an juz 30, and pembentukan akhlak mulia sejak dini.
                         </p>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service_item text-center" data-magnetic>
+                    <div class="service_item text-center" data-magnetic style="background: #ffffff;">
                      <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon">
                           <img src="{{asset("landingpage/assets/images/graduation-hat.png")}}" alt="Akademik Unggul">
@@ -114,7 +114,7 @@
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service_item text-center" data-magnetic>
+                    <div class="service_item text-center" data-magnetic style="background: #ffffff;">
                       <div class="text-center w-100 align-items-center d-flex justify-content-center">
                         <div class="item_icon">
                           <img src="{{asset("landingpage/assets/images/office-man.png")}}" alt="Minat & Bakat">
@@ -127,7 +127,7 @@
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div>  </div>
 
 
                 <!-- Button will show on Mobile Device -->
