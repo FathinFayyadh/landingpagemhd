@@ -24,12 +24,12 @@ class routecontroller extends Controller
             ],
             [
                 'name' => 'Adi Jandru S.Pd',
-                'role' => 'Guru Pendidikan Jasmani  ',
+                'role' => 'PJOK (Pendidikan Jasmani, Olahraga, dan Kesehatan)  ',
                 'image' => 'guru2.png'
             ],
             [
                 'name' => 'DEVI SYAFRIANI, S.Ag',
-                'role' => 'Guru Agama Islam',
+                'role' => 'Wali Kelas 5 B',
                 'image' => 'guru3.png'
             ],
             [
@@ -39,7 +39,7 @@ class routecontroller extends Controller
             ],
             [
                 'name' => 'TETTY LUMONGGA LUBIS, S.Ag',
-                'role' => 'Guru Al-Qur\'an Hadits & Fiqih',
+                'role' => 'Wali Kelas 1 ',
                 'image' => 'guru11.png'
             ],
             [
@@ -54,7 +54,7 @@ class routecontroller extends Controller
             ],
             [
                 'name' => 'HILDA PANGGABEAN, S.Ag',
-                'role' => 'Guru Kelas 3 & Wali Kelas',
+                'role' => 'Guru Al-Islam & Kemuhammadiyahan',
                 'image' => 'guru12.png'
             ],
             [
@@ -69,7 +69,7 @@ class routecontroller extends Controller
             ],
             [
                 'name' => 'ROHIMAH DAIM, S.Pd',
-                'role' => 'Wali Kelas 5',
+                'role' => 'Wali Kelas 5 A',
                 'image' => 'guru7.png'
             ],
             [
@@ -77,25 +77,18 @@ class routecontroller extends Controller
                 'role' => 'Guru Bidang Studi',
                 'image' => 'guru9.png'
             ],
-            [
-                'name' => 'IBRAHIM HANIF NASUTION',
-                'role' => 'Guru PJOK & Ekstrakurikuler',
-                'image' => ''
-            ],
+           
             [
                 'name' => 'M. FAISAL FIKRI',
-                'role' => 'Ekstrakurikuler Karate',
+                'role' => 'Ekstrakurikuler Tapak Suci',
                 'image' => ''
             ],
+            
+            
             [
-                'name' => 'RICKY ZULHERNANDA',
-                'role' => 'Guru Kelas 5C & Bidang Studi IPS',
-                'image' => ''
-            ],
-            [
-                'name' => 'SRI KARYATI',
-                'role' => 'Guru Bahasa Indonesia & SBdP',
-                'image' => ''
+                'name' => 'Ahmad Habibi S.Pd',
+                'role' => 'Guru Tahfidz Quran ',
+                'image' => 'guru5.png'
             ],
         ];
     }
